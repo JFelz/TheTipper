@@ -33,7 +33,7 @@ tipBtn_10.addEventListener('click', () => {
   
   const billTotal = Number(EnterBillValue.value);
 
-  billTotal < 50 ? tipCost = ((billTotal/100) * 10) : null
+  billTotal ? tipCost = ((billTotal/100) * 10) : null
   
   console.log(tipCost);
   
