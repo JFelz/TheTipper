@@ -1,0 +1,75 @@
+body{
+  background-color:  rgba(66, 9, 9, 0.843);
+}
+.blue-card {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.header {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  color: rgb(214, 214, 214);
+  font-family: Poppins;
+}
+.Input {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 1.5rem; 
+}
+.Here {
+  margin-top: 7%;
+  color: white;
+}
+.overlay {
+  position: absolute;
+  color: rgb(255, 255, 255);
+  transform: translate(-50%, -50%);
+  top: 45%;
+  left: 25%;
+  right: 50%;
+  font-size: 35px;
+  font-family: Poppins;
+  font-weight: bold;
+  text-shadow: 5px 5px 1px rgb(42, 42, 42);
+}
+.hero {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: flex;
+  justify-content: center;
+  opacity: 100%;
+}
+#calcBill {
+  padding: 2%;
+  width: 200px;
+  color: aliceblue;
+  border-radius: 5px;
+  background-color: rgb(37, 37, 37);
+  border-color: rgb(37, 37, 37);
+}
+.TipBtn_10 {
+  padding: 3%;
+  border-radius: 5px;
+  color: rgb(28, 28, 28);
+  background-color: aliceblue;
+}
+.TipBtn_15 {
+  padding: 3%;
+  border-radius: 5px;
+  color: rgb(28, 28, 28);
+  background-color: aliceblue;
+}
+.TipBtn_25 {
+  padding: 3%;
+  border-radius: 5px;
+  color: rgb(28, 28, 28);
+  background-color: aliceblue;
+}
+.btnSpace {
+  width: 50%;
+}

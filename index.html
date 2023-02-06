@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="main.css">
+</head>
+<body>
+  <div class="hero">
+    <img style="width: 100%;" src="C:\Users\Ken\Downloads\pexels-luis-poletti-1296543.jpg" class="background-image">
+    <div class="overlay"> 
+      Welcome to The Tipper
+    </div>
+  </div>
+  <div class="header">
+    <h4 style="margin-top: 10%; margin-bottom: 0%;">It's simple! Just type in the amount of your bill</h4> 
+      <p><b>10%</b>: $0.00 - $49.99 | <b>15%</b>: $50.00 - $300.00 | <b>25%</b>: higher</p>
+    <div class="Here" style="margin-bottom: 10%;"></div>
+     <input type="text" class="form-control" style="width: 20%; margin-bottom: 2%; height: 2rem; border-radius: 7px;" id="totalValue" placeholder="Enter Bill Total">
+     <button type="button" style="margin-bottom: 2%;" id="calcBill"><b>Calculate Tip</b></button>
+     <div class="btnSpace">
+      <button class="TipBtn_10" type="button" ><b>10%</b></button>
+      <button class="TipBtn_15" type="button" ><b>15%</b></button>
+      <button class="TipBtn_25" type="button" ><b>25%</b></button>
+    </div>
+  </div>
+  <div class="blue-card"></div>
+  <script src="main.js"></script>
+</body>
+</html>
